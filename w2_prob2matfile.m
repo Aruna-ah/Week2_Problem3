@@ -5,7 +5,6 @@ u = 500;
 %[A,B,C,D] = linmod('w2_prob3')
 %cruise_ss = ss(A,B,C,D);
 %step(u*cruise_ss)
-Kp = 800;
-Ki = 40;
+
 r = 10;
 Ts = 0.01;
